@@ -22,7 +22,7 @@ name_on_order =st.text_input('Nme of Smoothie:')
 st.write('the name on your smoothie will be :', name_on_order)
 
 #convert
-pd_df=my_dataframe.to_panda()
+pd_df=my_dataframe.to_pandas()
 st.dataframe(pd_df)
 st.stop()
 
